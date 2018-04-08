@@ -1,0 +1,2358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="relation" type="string" />
+      <attribute id="1" title="year" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="networkx_key" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>07/04/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="British Empire" label="British Empire" />
+      <node id="United States" label="United States" />
+      <node id="Ottoman Empire" label="Ottoman Empire" />
+      <node id="Spain" label="Spain" />
+      <node id="Russian Empire" label="Russian Empire" />
+      <node id="United Kingdom" label="United Kingdom" />
+      <node id="Portugal" label="Portugal" />
+      <node id="Sweden" label="Sweden" />
+      <node id="France" label="France" />
+      <node id="Italy" label="Italy" />
+      <node id="Russia" label="Russia" />
+      <node id="Dutch Empire" label="Dutch Empire" />
+      <node id="Egypt" label="Egypt" />
+      <node id="French Empire" label="French Empire" />
+      <node id="Haiti" label="Haiti" />
+      <node id="Nepal" label="Nepal" />
+      <node id="Bolivia" label="Bolivia" />
+      <node id="Argentina" label="Argentina" />
+      <node id="Chile" label="Chile" />
+      <node id="Oman" label="Oman" />
+      <node id="Paraguay" label="Paraguay" />
+      <node id="Venezuela" label="Venezuela" />
+      <node id="Peru" label="Peru" />
+      <node id="Austria" label="Austria" />
+      <node id="Norway" label="Norway" />
+      <node id="Mexico" label="Mexico" />
+      <node id="Empire of Brazil" label="Empire of Brazil" />
+      <node id="Dominican Republic" label="Dominican Republic" />
+      <node id="Morocco" label="Morocco" />
+      <node id="Hungary" label="Hungary" />
+      <node id="Denmark" label="Denmark" />
+      <node id="Uruguay" label="Uruguay" />
+      <node id="Montenegro" label="Montenegro" />
+      <node id="Fiji" label="Fiji" />
+      <node id="Costa Rica" label="Costa Rica" />
+      <node id="Nicaragua" label="Nicaragua" />
+      <node id="Guatemala" label="Guatemala" />
+      <node id="El Salvador" label="El Salvador" />
+      <node id="Honduras" label="Honduras" />
+      <node id="Afghanistan" label="Afghanistan" />
+      <node id="Ecuador" label="Ecuador" />
+      <node id="Bhutan" label="Bhutan" />
+      <node id="Cuba" label="Cuba" />
+      <node id="Empire of Japan" label="Empire of Japan" />
+      <node id="Serbia" label="Serbia" />
+      <node id="Romania" label="Romania" />
+      <node id="Tunisia" label="Tunisia" />
+      <node id="Belgium" label="Belgium" />
+      <node id="Ethiopia" label="Ethiopia" />
+      <node id="Brazil" label="Brazil" />
+      <node id="Samoa" label="Samoa" />
+      <node id="Australia" label="Australia" />
+      <node id="Canada" label="Canada" />
+      <node id="New Zealand" label="New Zealand" />
+      <node id="India" label="India" />
+      <node id="Albania" label="Albania" />
+      <node id="Poland" label="Poland" />
+      <node id="Estonia" label="Estonia" />
+      <node id="Latvia" label="Latvia" />
+      <node id="Lithuania" label="Lithuania" />
+      <node id="Greece" label="Greece" />
+      <node id="Armenia" label="Armenia" />
+      <node id="Kuwait" label="Kuwait" />
+      <node id="Turkey" label="Turkey" />
+      <node id="Bulgaria" label="Bulgaria" />
+      <node id="People's Republic of China" label="People's Republic of China" />
+      <node id="Iran" label="Iran" />
+      <node id="Finland" label="Finland" />
+      <node id="Colombia" label="Colombia" />
+      <node id="Thailand" label="Thailand" />
+      <node id="Saudi Arabia" label="Saudi Arabia" />
+      <node id="Yemen" label="Yemen" />
+      <node id="Germany" label="Germany" />
+      <node id="Mongolia" label="Mongolia" />
+      <node id="Slovakia" label="Slovakia" />
+      <node id="Luxembourg" label="Luxembourg" />
+      <node id="Panama" label="Panama" />
+      <node id="Philippines" label="Philippines" />
+      <node id="Iraq" label="Iraq" />
+      <node id="Liberia" label="Liberia" />
+      <node id="Lebanon" label="Lebanon" />
+      <node id="Syria" label="Syria" />
+      <node id="Japan" label="Japan" />
+    </nodes>
+    <edges>
+      <edge id="0" source="British Empire" target="Dutch Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="British Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="British Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="British Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1881" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="British Empire" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="British Empire" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1810" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="British Empire" target="France">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="British Empire" target="Haiti">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="British Empire" target="Venezuela">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1811" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="British Empire" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1811" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="British Empire" target="Ottoman Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1821" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="British Empire" target="Ottoman Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="British Empire" target="Ottoman Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1915" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="British Empire" target="Spain">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="British Empire" target="Empire of Brazil">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="British Empire" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1850" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="British Empire" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1853" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="British Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1853" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="British Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="British Empire" target="Nicaragua">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="British Empire" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="British Empire" target="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="British Empire" target="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1878" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="British Empire" target="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1919" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="British Empire" target="Nepal">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1857" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="British Empire" target="United States">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1863" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="British Empire" target="United States">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="British Empire" target="Bhutan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="British Empire" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1881" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="British Empire" target="Australia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="British Empire" target="India">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="British Empire" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="British Empire" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="British Empire" target="Canada">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="United States" target="Ottoman Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1801" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="United States" target="Ottoman Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1815" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="United States" target="Spain">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1810" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="United States" target="Mexico">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1846" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="United States" target="Mexico">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="United States" target="Fiji">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1855" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="United States" target="Fiji">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1859" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="United States" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1859" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="United States" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1887" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="United States" target="United States">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1887" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="United States" target="Empire of Japan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1887" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="United States" target="Brazil">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="United States" target="Haiti">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1915" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="United States" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="United States" target="Nicaragua">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="United States" target="Guatemala">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="United States" target="Japan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1942" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="Ottoman Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1804" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="Ottoman Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="Ottoman Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1828" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="Ottoman Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1853" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="Ottoman Empire" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="Ottoman Empire" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="Ottoman Empire" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1916" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="Ottoman Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1831" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="Ottoman Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="Ottoman Empire" target="Spain">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="Ottoman Empire" target="Montenegro">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1852" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="Ottoman Empire" target="Montenegro">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1876" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="Ottoman Empire" target="Montenegro">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="Ottoman Empire" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1853" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="Ottoman Empire" target="Serbia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="Ottoman Empire" target="Romania">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="Ottoman Empire" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="Ottoman Empire" target="India">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="Ottoman Empire" target="Canada">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="Ottoman Empire" target="Australia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="Ottoman Empire" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="Ottoman Empire" target="Empire of Japan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="Ottoman Empire" target="Albania">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="Spain" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="Spain" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="Spain" target="Russian Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="Spain" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="Spain" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="Spain" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="Spain" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="Spain" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1828" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="Spain" target="Portugal">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="Spain" target="Portugal">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="Spain" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="Spain" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="Spain" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="Spain" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1815" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="Spain" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="Spain" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="Spain" target="Russia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="Spain" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="Spain" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="Spain" target="France">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1920" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="Spain" target="Haiti">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="Spain" target="Bolivia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1809" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="Spain" target="Bolivia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="Spain" target="Mexico">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1820" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="Spain" target="Morocco">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1859" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="Spain" target="Dominican Republic">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1863" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="Spain" target="Peru">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="Spain" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="Spain" target="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="Spain" target="Cuba">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1868" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="Russian Empire" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="Russian Empire" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="Russian Empire" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="Russian Empire" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="Russian Empire" target="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1815" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="Russian Empire" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="Russian Empire" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="Russian Empire" target="Sweden">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1815" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="Russian Empire" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="Russian Empire" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1853" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="Russian Empire" target="Austria">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1812" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="Russian Empire" target="Egypt">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1839" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="Russian Empire" target="Hungary">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1848" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="Russian Empire" target="Serbia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="Russian Empire" target="Empire of Japan">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="Russian Empire" target="Empire of Japan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1904" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="United Kingdom" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="United Kingdom" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="United Kingdom" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="United Kingdom" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1809" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="United Kingdom" target="France">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="United Kingdom" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="United Kingdom" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="United Kingdom" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1809" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="United Kingdom" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="United Kingdom" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="United Kingdom" target="Venezuela">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1902" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="United Kingdom" target="Latvia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="United Kingdom" target="Poland">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="United Kingdom" target="Kuwait">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1927" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="United Kingdom" target="Finland">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1941" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="Portugal" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="Portugal" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="Portugal" target="French Empire">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1807" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="Portugal" target="Mexico">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1936" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="Portugal" target="Germany">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1936" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="Sweden" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="Sweden" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="Sweden" target="France">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="Sweden" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="Sweden" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="Sweden" target="Norway">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1814" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="France" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1803" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="France" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="France" target="Italy">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1809" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="France" target="Russia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="France" target="Haiti">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1808" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="France" target="Morocco">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1844" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="France" target="Morocco">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1911" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="France" target="Tunisia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1881" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="France" target="Turkey">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1920" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="France" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="France" target="Australia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="France" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="Italy" target="Russia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1806" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="Italy" target="Belgium">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1881" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="Italy" target="Mexico">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1936" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="Italy" target="Germany">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1936" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="Egypt" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="Egypt" target="Turkey">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="Egypt" target="Lebanon">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="Haiti" target="Dominican Republic">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1843" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="Haiti" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="Haiti" target="El Salvador">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="Haiti" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="Bolivia" target="Brazil">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="Bolivia" target="Paraguay">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1932" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="Bolivia" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="Bolivia" target="Iraq">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="Bolivia" target="Colombia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="Argentina" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1810" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="Argentina" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1810" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="Argentina" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1811" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="Argentina" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1836" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="Argentina" target="Chile">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="Argentina" target="Peru">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1811" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="Argentina" target="Paraguay">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="Argentina" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="Argentina" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="Argentina" target="Saudi Arabia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="Chile" target="Peru">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="Chile" target="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="Chile" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="Paraguay" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="Paraguay" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="Paraguay" target="Empire of Brazil">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="Paraguay" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="Paraguay" target="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="Venezuela" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="Venezuela" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="Venezuela" target="Turkey">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="Peru" target="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1857" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="Peru" target="Ecuador">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1941" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="Peru" target="Colombia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1932" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="Peru" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="Peru" target="Liberia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="Peru" target="Albania">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="Norway" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="Norway" target="Denmark">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="Norway" target="Belgium">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="Mexico" target="Germany">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1936" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="Mexico" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="Mexico" target="Philippines">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="Mexico" target="Brazil">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="Empire of Brazil" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1851" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="Empire of Brazil" target="Uruguay">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1864" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="Dominican Republic" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="Dominican Republic" target="Costa Rica">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="Dominican Republic" target="El Salvador">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="Denmark" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="Denmark" target="Canada">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="Uruguay" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="Montenegro" target="Romania">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="Costa Rica" target="Nicaragua">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="Costa Rica" target="Guatemala">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="Costa Rica" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="Costa Rica" target="Panama">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="Nicaragua" target="Guatemala">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="Nicaragua" target="El Salvador">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="Nicaragua" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="Nicaragua" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1907" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="Nicaragua" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="Nicaragua" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="Guatemala" target="El Salvador">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="Guatemala" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="Guatemala" target="Cuba">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="El Salvador" target="Honduras">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1856" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="El Salvador" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="Honduras" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="Afghanistan" target="India">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1919" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="Ecuador" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="Ecuador" target="Albania">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="Cuba" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="Cuba" target="Philippines">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="Empire of Japan" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="Empire of Japan" target="Albania">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="Empire of Japan" target="Mongolia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="Serbia" target="Romania">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1877" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="Belgium" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="Belgium" target="Luxembourg">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="Ethiopia" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="Ethiopia" target="Brazil">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="Ethiopia" target="Iraq">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="Brazil" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="Australia" target="Canada">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="Australia" target="Canada">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="Australia" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="Australia" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="Australia" target="Poland">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="Canada" target="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1899" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="Canada" target="India">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1914" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="Canada" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="New Zealand" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="Albania" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="Poland" target="Estonia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="Poland" target="Lithuania">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1920" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="Poland" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="Estonia" target="Latvia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="Estonia" target="Latvia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1918" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="Armenia" target="Turkey">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1921" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="Turkey" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="Iran" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="Iran" target="Colombia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="Iran" target="Liberia">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="Colombia" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="Saudi Arabia" target="Yemen">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1934" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="Saudi Arabia" target="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="Saudi Arabia" target="Syria">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="Slovakia" target="Luxembourg">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="Slovakia" target="Panama">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="Slovakia" target="Philippines">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="Slovakia" target="Iraq">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="Slovakia" target="Liberia">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="Slovakia" target="Lebanon">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="Slovakia" target="Syria">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="Luxembourg" target="Panama">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="Philippines" target="Japan">
+        <attvalues>
+          <attvalue for="0" value="-" />
+          <attvalue for="1" value="1942" />
+          <attvalue for="2" value="Red" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="Lebanon" target="Syria">
+        <attvalues>
+          <attvalue for="0" value="+" />
+          <attvalue for="1" value="1939" />
+          <attvalue for="2" value="Green" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
