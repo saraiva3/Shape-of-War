@@ -1,2 +1,18 @@
 # Shape of War
-Complex network of all international wars that happened in a time spam of 200 years
+Complex network of all international wars that happened in a time spam of 200 years.
+
+
+Steps to accomplish this:
+
+1 Get all interested links, in this case, all links that points to a page containing information about international wars
+2 Remove the unnacessary links, for this work, only 1800 to 2017 were important
+3 Scrape all the info from the tables (BeaufifulSoup has been used for this)
+4 Clean all the data that you collect by filtering only the contries and conflicts that happened between countries
+5 Create the multigraph (NetworkX has been used for this)
+
+
+The web scrape used here can scrape tables from wikipedia that use the "Wikitable" class on its table tag. It is not hard to modify the scrape function to scrape different html tags, but, the cleanning data function is very especific and shoul be deleted beforehand to use the algorithm in a different context.
+
+
+
+![Imaget](https://ibb.co/i8N5HH)
