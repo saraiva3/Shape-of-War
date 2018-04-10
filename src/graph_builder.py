@@ -2,6 +2,7 @@
 
 import csv
 import os
+import re
 import platform
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -79,11 +80,15 @@ def convert_table_to_graph(table, G):
                             
                         year_start = cleaned[3]
                         year_end = cleaned[4]
-                        
+
+
 
 
                         for ally in splittedAlly:                   
                             ally = ally.strip()    
+                            ally = re.sub(r'\([^)]*\)', '', ally)
+                           
+                            
                             foundAlly = False                 
                             continent_ally = ""
                            
@@ -91,6 +96,7 @@ def convert_table_to_graph(table, G):
                                 if ally == ct.countries[i]["name"] :
                                     foundAlly = True                                      
                                     continent_ally = ct.countries[i]["continent"]
+                                    break
 
                             if not G.has_node(ally):
                                 if ally.strip() and foundAlly:
@@ -98,13 +104,15 @@ def convert_table_to_graph(table, G):
 
                             for enemy in splitedCombatent:                                    
                                 enemy = enemy.strip()
+                                enemy = re.sub(r'\([^)]*\)', '', enemy)
                                 foundEnemy= False 
                                 continent_enemy = ""
                                 for i in range(len(ct.countries)):
                                     if enemy == ct.countries[i]["name"]: 
                                         foundEnemy = True  
                                         continent_enemy = ct.countries[i]["continent"]                                    
-
+                                        break
+                                        
                                 if not G.has_node(enemy) and enemy.strip() and foundEnemy:                                       
                                     G.add_node(enemy,  continent = continent_enemy) 
 
@@ -115,45 +123,64 @@ def convert_table_to_graph(table, G):
                                  
                                     color="Red")
 
-
+                        #ALLIANCE ALLIANCES
                         alliance = []
-                        size = len(splittedAlly) - 1
+                        size = len(splittedAlly)
                         for i in range(size):
                             foundAlly = False              
-                            
-                            for j in range(len(ct.countries)):
+                            splittedAlly[i] = re.sub(r'\([^)]*\)', '', splittedAlly[i].strip())
+                            for j in range(len(ct.countries)):                                
                                 if splittedAlly[i].strip() == ct.countries[j]["name"]:   
                                     foundAlly = True 
-                                    
+                                    if not G.has_node(splittedAlly[i].strip()):
+                                        G.add_node(splittedAlly[i].strip(), continent = ct.countries[j]["continent"])
+                                    break
                                        
                             if foundAlly and splittedAlly[i].strip():
+                                
+
                                 alliance.append(splittedAlly[i])
 
 
-                        aux_splittedAlly = alliance
+                       
                         size = len(alliance) - 1
+                        size_aux = len(alliance)
                         for i in range(size): 
-                             G.add_edge(alliance[i].strip(), aux_splittedAlly[i+1].strip(), relation = '+', year_start=year_start, 
+                            j = i+1                            
+                            while size_aux - j > 1:
+                                G.add_edge(alliance[i].strip(), alliance[j].strip(), relation = '+', year_start=year_start, 
                                     year_end = year_end,
                                      color="Green")
+                                j = j+1
 
+
+                        #COMBATANTS ALLIANCES
                         combatants = []
-                        size = len(splitedCombatent) - 1  
+                        size = len(splitedCombatent)
                         for i in range(size):
                             foundEnemy = False            
-                              
+                            splitedCombatent[i] = re.sub(r'\([^)]*\)', '', splitedCombatent[i].strip())
                             for j in range(len(ct.countries)):
                                 if splitedCombatent[i] == ct.countries[j]["name"]:   
                                     foundEnemy = True    
+                                    if not G.has_node(splitedCombatent[i].strip()):
+                                        G.add_node(splitedCombatent[i].strip(), continent = ct.countries[j]["continent"])
+                                    break
+
                             if foundEnemy and splitedCombatent[i].strip():
                                 combatants.append(splitedCombatent[i])
 
-                        aux_splitedCombatent = combatants
-                        size = len(combatants) - 1
+                        
+                        size = len(combatants)
+                        size_aux = len(combatants)
+                        
                         for i in range(size): 
-                             G.add_edge(combatants[i].strip(), aux_splitedCombatent[i+1].strip(), relation = '+', year_start=year_start, 
+                            j = i+1
+                            while size_aux - j > 1:
+                                G.add_edge(combatants[i].strip(), combatants[j].strip(), relation = '+', year_start=year_start, 
                                     year_end = year_end,
-                                   color="Green")    
+                                   color="Green")
+                                j =  j+1    
 
 
 def contains_word(s, w):

@@ -199,7 +199,8 @@ countries = [
 {'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Asia', 'name': 'Empire of Japan', 'capital': 'London'},
 {'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Russian Empire', 'capital': 'London'},
 {'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'South America', 'name': 'Empire of Brazil', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Dutch Empire', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'French Empire', 'capital': 'London'},
 
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'French Empire', 'capital': 'London'},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Soviet Union', 'capital': 'London'},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Nazi Germany', 'capital': 'London'}
 ]
