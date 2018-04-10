@@ -77,34 +77,44 @@ def convert_table_to_graph(table, G):
                         splittedAlly = cleaned[6].split('/')
                         splitedCombatent = cleaned[7].split('/')
                             
-                        year = cleaned[3]
+                        year_start = cleaned[3]
+                        year_end = cleaned[4]
                         
+
+
                         for ally in splittedAlly:                   
                             ally = ally.strip()    
                             foundAlly = False                 
-                           
+                            continent_ally = ""
                            
                             for i in range(len(ct.countries)):
                                 if ally == ct.countries[i]["name"] :
                                     foundAlly = True                                      
+                                    continent_ally = ct.countries[i]["continent"]
 
                             if not G.has_node(ally):
                                 if ally.strip() and foundAlly:
-                                    G.add_node(ally)   
+                                    G.add_node(ally, continent = continent_ally)   
 
                             for enemy in splitedCombatent:                                    
                                 enemy = enemy.strip()
                                 foundEnemy= False 
-
+                                continent_enemy = ""
                                 for i in range(len(ct.countries)):
                                     if enemy == ct.countries[i]["name"]: 
-                                        foundEnemy = True                                        
+                                        foundEnemy = True  
+                                        continent_enemy = ct.countries[i]["continent"]                                    
 
                                 if not G.has_node(enemy) and enemy.strip() and foundEnemy:                                       
-                                    G.add_node(enemy) 
+                                    G.add_node(enemy,  continent = continent_enemy) 
 
-                                if enemy.strip() and ally.strip() and foundEnemy and  foundAlly:                                                                     
-                                    G.add_edge(ally, enemy, relation='-', year=year, color="Red")
+                                if enemy.strip() and ally.strip() and foundEnemy and  foundAlly: 
+
+                                    G.add_edge(ally, enemy, relation='-', year_start=year_start, 
+                                    year_end = year_end,
+                                 
+                                    color="Red")
+
 
                         alliance = []
                         size = len(splittedAlly) - 1
@@ -123,7 +133,9 @@ def convert_table_to_graph(table, G):
                         aux_splittedAlly = alliance
                         size = len(alliance) - 1
                         for i in range(size): 
-                             G.add_edge(alliance[i].strip(), aux_splittedAlly[i+1].strip(), relation = '+', year=year, color="Green")
+                             G.add_edge(alliance[i].strip(), aux_splittedAlly[i+1].strip(), relation = '+', year_start=year_start, 
+                                    year_end = year_end,
+                                     color="Green")
 
                         combatants = []
                         size = len(splitedCombatent) - 1  
@@ -139,7 +151,9 @@ def convert_table_to_graph(table, G):
                         aux_splitedCombatent = combatants
                         size = len(combatants) - 1
                         for i in range(size): 
-                             G.add_edge(combatants[i].strip(), aux_splitedCombatent[i+1].strip(), relation = '+', year=year, color="Green")    
+                             G.add_edge(combatants[i].strip(), aux_splitedCombatent[i+1].strip(), relation = '+', year_start=year_start, 
+                                    year_end = year_end,
+                                   color="Green")    
 
 
 def contains_word(s, w):

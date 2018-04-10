@@ -42,7 +42,7 @@ print("Processing LINKS...")
 del linksList[0]
 del linksList[0]
 del linksList[0]
-del linksList[0]
+
 del linksList[len(linksList)-1]
 for link in linksList:
 	print("Srapping page "+ str(link))
