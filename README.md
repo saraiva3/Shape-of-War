@@ -1,5 +1,5 @@
 # Shape of War
-Complex network of all international wars that happened in a time spam of 200 years.
+Complex network of all international wars that happened in a time spam of 300 years.
 
 
 Steps to accomplish this:
