@@ -15,4 +15,4 @@ The web scrape used here can scrape tables from wikipedia that use the "Wikitabl
 
 
 
-![Imaget](https://image.ibb.co/c6iqjx/d2788b44_fc8f_429a_9062_a45e3d8b1aae.jpg)
+![Imaget](https://image.ibb.co/gkWfWn/screenshot_170956.png)
