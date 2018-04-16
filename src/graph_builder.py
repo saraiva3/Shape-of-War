@@ -87,7 +87,7 @@ def convert_table_to_graph(table, G):
                         for ally in splittedAlly:                   
                             ally = ally.strip()    
                             ally = re.sub(r'\([^)]*\)', '', ally)
-                           
+                            ally = ally.strip()
                             
                             foundAlly = False                 
                             continent_ally = ""
@@ -99,12 +99,14 @@ def convert_table_to_graph(table, G):
                                     break
 
                             if not G.has_node(ally):
-                                if ally.strip() and foundAlly:
+                                if ally and foundAlly:
                                     G.add_node(ally, continent = continent_ally)   
 
                             for enemy in splitedCombatent:                                    
                                 enemy = enemy.strip()
                                 enemy = re.sub(r'\([^)]*\)', '', enemy)
+                                enemy = enemy.strip()
+
                                 foundEnemy= False 
                                 continent_enemy = ""
                                 for i in range(len(ct.countries)):
@@ -113,14 +115,13 @@ def convert_table_to_graph(table, G):
                                         continent_enemy = ct.countries[i]["continent"]                                    
                                         break
                                         
-                                if not G.has_node(enemy) and enemy.strip() and foundEnemy:                                       
+                                if not G.has_node(enemy) and enemy and foundEnemy:                                       
                                     G.add_node(enemy,  continent = continent_enemy) 
 
-                                if enemy.strip() and ally.strip() and foundEnemy and  foundAlly: 
+                                if enemy and ally and foundEnemy and  foundAlly: 
 
                                     G.add_edge(ally, enemy, relation='-', year_start=year_start, 
-                                    year_end = year_end,
-                                 
+                                    year_end = year_end,                                 
                                     color="Red")
 
                         #ALLIANCE ALLIANCES
@@ -129,6 +130,7 @@ def convert_table_to_graph(table, G):
                         for i in range(size):
                             foundAlly = False              
                             splittedAlly[i] = re.sub(r'\([^)]*\)', '', splittedAlly[i].strip())
+
                             for j in range(len(ct.countries)):                                
                                 if splittedAlly[i].strip() == ct.countries[j]["name"]:   
                                     foundAlly = True 
@@ -136,9 +138,7 @@ def convert_table_to_graph(table, G):
                                         G.add_node(splittedAlly[i].strip(), continent = ct.countries[j]["continent"])
                                     break
                                        
-                            if foundAlly and splittedAlly[i].strip():
-                                
-
+                            if foundAlly and splittedAlly[i].strip(): 
                                 alliance.append(splittedAlly[i])
 
 

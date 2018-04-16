@@ -193,14 +193,17 @@ countries = [
 {'timezones': ['Africa/Mbabane'], 'code': 'SZ', 'continent': 'Africa', 'name': 'Swaziland', 'capital': 'Mbabane'},
 {'timezones': ['Europe/Zurich'], 'code': 'CH', 'continent': 'Europe', 'name': 'Switzerland', 'capital': 'Bern'},
 {'timezones': ['Asia/Dubai'], 'code': 'AE', 'continent': 'Asia', 'name': 'United Arab Emirates', 'capital': 'Abu Dhabi'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'United Kingdom', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Ottoman Empire', 'capital': 'London'},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'United Kingdom', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Ottoman Empire', 'capital': ''},
 {'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'British Empire', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Asia', 'name': 'Empire of Japan', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Russian Empire', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'South America', 'name': 'Empire of Brazil', 'capital': 'London'},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Asia', 'name': 'Empire of Japan', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Russian Empire', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'French Empire', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Soviet Union', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Kingdom of Italy', 'capital': ''},
+{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Nazi Germany', 'capital': ''}
 
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'French Empire', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Soviet Union', 'capital': 'London'},
-{'timezones': ['Europe/London'], 'code': 'GB', 'continent': 'Europe', 'name': 'Nazi Germany', 'capital': 'London'}
+
+
+
 ]
