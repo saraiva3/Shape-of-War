@@ -36,7 +36,7 @@ for node in G.nodes():
    index = index + 1 
 
 degrees_map = sorted(clustering.items())
-
+print(nx.average_clustering(G))
 fig2 = plt.figure()
 ax2 = fig2.add_subplot(111)
 ax2.loglog([ degree for (degree , frequency ) in degrees_map ] , [ frequency for (degree ,frequency ) in degrees_map ],  'b.')

@@ -4,78 +4,86 @@ import networkx as nx
 import sys
 
 
-
-#Verify ballance based on "Trust in social media" book chapter 5
-def verify_balance(G,t):
-    if G.get_edge_data(t[0][0],t[0][1]) == -1:
-        edge1 = (t[0][1], t[0][0])
-    else:
-        edge1 = (t[0][0], t[0][1])
-
-    if G.get_edge_data(t[1][0],t[1][1]) == -1:
-        edge2 = (t[1][1], t[1][0])
-    else:
-        edge2 = (t[1][0], t[1][1])
-    if G.get_edge_data(t[2][0],t[2][1]) == -1:
-        edge3 = (t[2][1], t[2][0])
-    else:
-        edge3 = (t[2][0], t[2][1])
-    if edge1[1] == edge2[0] and edge2[1] == edge3[0] and edge3[1] == edge1[0]:
-        return False
-    elif edge3[1] == edge2[0] and edge2[1] == edge1[0] and edge1[1] == edge3[0]:
-        return False
-    else:
-        return True
-
-#Verify booth directions to edge and return the right order
-def edge_direct(G, node_1, node_2):
-    if node_1 in G[node_2]:
-        return (node_2, node_1)
-    else:
-        return (node_1, node_2)
-
     
-#Compute all triangles, based on stack exchange thread
-#https://codereview.stackexchange.com/questions/103893/find-a-triangle-in-a-graph-represented-as-an-adjacency-list
+
 def compute_triangle_and_balance(G):
-    triangles = {}  
+    triangles = {}    
 
     ballanced = 0
     unballanced = 0
     print len(G.edges())
-    #841372
-    print "Calculating Triangles and Checking Balance"
-    print "This method runs in approximately O(mn), it may take a while"
-    for edge in G.edges():      
-        for node in G.nodes():
-            node1_of_edge = edge[0]
-            node2_of_edge = edge[1]
-            if G.has_edge(node1_of_edge, node) and G.has_edge(node2_of_edge, node):   
-                e1 = edge_direct(G, node1_of_edge, node) 
-                e2 = edge_direct(G, node2_of_edge, node)
-                t = tuple(sorted((edge,e1 , e2)))
-                
-                if verify_balance(G, t):
-                    ballanced = ballanced + 1                    
-                else:
-                    unballanced = unballanced + 1
+    print "Calculating triangles status, it may take a while"
+    triadsVisited = set()
+    i = 0
+    for u in G.nodes():
+        viz_u = set(G.neighbors(u))      
 
-    print "Number of Ballanced Triangles"
+        for v in viz_u:
+            inter = set(viz_u).intersection(G.neighbors(v))
+            for t in inter:
+
+                if (u, v, t) in triadsVisited:
+                    continue
+                if G.has_edge(t,u): 
+                    triadsVisited.add((u,v,t))
+                    triadsVisited.add((v,t,u))
+                    triadsVisited.add((t,u,v))
+                    if G[u][v]["sign"] == -1:
+                        edge1 = (v, u)
+                    else:
+                        edge1 = (u, v)
+
+                    if G[v][t]["sign"]  == -1:
+                        edge2 = (t, v)
+                    else:
+                        edge2 = (v, t)
+
+                    if G[t][u]["sign"]  == -1:
+                        edge3 = (u, t)
+                    else:
+                        edge3 = (t, u)
+                    if edge1[1] == edge2[0] and edge2[1] == edge3[0] and edge3[1] == edge1[0]:
+                        unballanced = unballanced + 1
+                    elif edge3[1] == edge2[0] and edge2[1] == edge1[0] and edge1[1] == edge3[0]:
+                        unballanced = unballanced + 1
+                    else:
+                        ballanced = ballanced + 1  
+
+
+                elif G.has_edge(u, t):
+                    
+                    triadsVisited.add((u,v,t))
+                    triadsVisited.add((v,t,u))
+                    triadsVisited.add((u,t,v))
+
+                    if G[u][v]["sign"] == -1:
+                        edge1 = (v, u)
+                    else:
+                        edge1 = (u, v)
+
+                    if G[v][t]["sign"] == -1:
+                        edge2 = (t, v)
+                    else:
+                        edge2 = (v, t)
+
+                    if G[u][t]["sign"] == -1:
+                        edge3 = (t, u)
+                    else:
+                        edge3 = (u, t)
+                    if edge1[1] == edge2[0] and edge2[1] == edge3[0] and edge3[1] == edge1[0]:
+                        unballanced = unballanced + 1
+                    elif edge3[1] == edge2[0] and edge2[1] == edge1[0] and edge1[1] == edge3[0]:
+                        unballanced = unballanced + 1
+                    else:
+                        ballanced = ballanced + 1  
+
+
     print ballanced
-    print "Nunber of Unballanced Triangles"
     print unballanced
 
-    if ballanced > unballanced:
-        print "Ballanced network"
-    else:
-        print "Unballanced network"        
-
-    
-
-
-print "Reading directed graph file"
 G = nx.DiGraph()
-G = nx.read_edgelist('soc-sign-epinions.txt', create_using=nx.DiGraph(), nodetype=int, data=(('Sign',int),))
+
+G = nx.read_edgelist('soc-sign-epinions.txt', create_using=nx.DiGraph(), nodetype=int, data=(('sign',int),))
 compute_triangle_and_balance(G)
 
 
