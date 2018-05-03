@@ -11,7 +11,7 @@ Steps to accomplish this:
 5. Create the multigraph (NetworkX has been used for this)
 
 
-The web scrape used here can scrape tables from wikipedia that use the "Wikitable" class on its table tag. It is not hard to modify the scrape function to scrape different html tags, but, the cleanning data function is very especific and shoul be deleted beforehand to use the algorithm in a different context.
+The web scrape used here can scrape tables from wikipedia that use the "Wikitable" class on its table tag. It is not hard to modify the scrape function to scrape different html tags, but, the cleanning data function is very especific and should be deleted beforehand to use the algorithm in a different context.
 
 
 
