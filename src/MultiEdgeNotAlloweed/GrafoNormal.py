@@ -119,8 +119,8 @@ def convert_table_to_graph(table, G):
                                     G.add_node(enemy,  continent = continent_enemy) 
 
                                 if enemy and ally and foundEnemy and  foundAlly: 
-
-                                    G.add_edge(ally, enemy, relation='-', year_start=year_start, 
+                                    if not G.has_edge(enemy, ally):
+                                        G.add_edge(ally, enemy, relation='-', year_start=year_start, 
                                     year_end = year_end,                                 
                                     color="Red")
 
@@ -148,9 +148,10 @@ def convert_table_to_graph(table, G):
                         for i in range(size): 
                             j = i+1                            
                             while size_aux - j > 1:
-                                G.add_edge(alliance[i].strip(), alliance[j].strip(), relation = '+', year_start=year_start, 
+                                if not G.has_edge(alliance[i].strip(),alliance[j].strip()):
+                                    G.add_edge(alliance[i].strip(), alliance[j].strip(), relation = '+', year_start=year_start, 
                                     year_end = year_end,
-                                     color="Green")
+                                    color="Green")
                                 j = j+1
 
 
@@ -177,6 +178,7 @@ def convert_table_to_graph(table, G):
                         for i in range(size): 
                             j = i+1
                             while size_aux - j > 1:
+                                
                                 G.add_edge(combatants[i].strip(), combatants[j].strip(), relation = '+', year_start=year_start, 
                                     year_end = year_end,
                                    color="Green")

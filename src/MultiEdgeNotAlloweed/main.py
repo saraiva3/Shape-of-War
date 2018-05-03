@@ -2,8 +2,7 @@
 
 import os
 import shutil
-
-import graph_builder
+import GrafoNormal as graph_builder
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
@@ -17,7 +16,7 @@ try:
 except FileNotFoundError:
     pass
 
-
+print("Openning Wikipedia link")
 html = urlopen("https://en.wikipedia.org/wiki/Category:Lists_of_wars_by_date")
 bsObj = BeautifulSoup(html, "html.parser")
 
@@ -32,7 +31,7 @@ for link in bsObj.find("div", {"aria-labelledby":"Lists_of_wars_by_date"}).findA
         linksList.append(str(link.attrs['href']))
 
 
-G=nx.MultiGraph()
+G=nx.Graph()
 
 
  
@@ -52,9 +51,6 @@ for link in linksList:
 	i = i+1
 	print("Exported\n\n")
 
-
-#print(G.nodes())
-#nx.draw(G)
-#plt.show()
+print("Finished, now you may run analytics.py")
 
 
