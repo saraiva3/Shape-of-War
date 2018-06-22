@@ -18,11 +18,19 @@ The web scrape used here can scrape tables from wikipedia that use the "Wikitabl
 ![Imaget](https://image.ibb.co/gkWfWn/screenshot_170956.png)
 ## Metrics
 Betwenness;
+
 Overlap;
+
 Assortativity;
+
 Node degree Distribution;
+
 Homophily;
+
 Bridges;
+
 Bridges Span;
+
 Clustering;
+
 Status balance (Only for signed social network from SNAP)
